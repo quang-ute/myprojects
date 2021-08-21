@@ -1,6 +1,6 @@
 # myprojects
-Useful projects, exercises and solutions for the students <br>
-The Dockerfile is used to generate docker image with full packages for hand-on Assembly & Security labs <br>
+
+The Dockerfile is used to generate docker image with full packages for hand-on Assembly & Security labs. <br>
 How to use:<br>
 1. Install docker on your computer (host machine) <br>
 2. $> docker build -t nasm .                          // to build docker image with all required packages for labs. nasm is the name of this image. <br>
