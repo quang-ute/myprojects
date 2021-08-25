@@ -9,5 +9,5 @@ $> docker build -t nasm .  												// to build docker image with all require
 for Assembly labs:<br>
 $> docker run -it -v /home/seed/asm:/home/asm nasm <br>
 for Security labs:<br>
-$> docker run -it -v /home/seed/seclabs:/home/security seed <br>
+$> docker run -it -v /home/seed/seclabs:/home/seclabs seed <br>
    
