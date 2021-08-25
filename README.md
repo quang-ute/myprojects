@@ -9,5 +9,5 @@ $> docker build -t img4lab .
 for Assembly labs (replace /home/asm with path on the student's host machine):<br>
 $> docker run -it -v /home/seed/asm:/home/asm img4lab <br>
 for Security labs (replace /home/security with path on the student's host machine):<br>
-$> docker run -it --privileged --name S1 -v /home/seed/seclabs:/home/security img4lab <br>
+$> docker run -it --privileged -v /home/seed/seclabs:/home/security img4lab <br>
    
