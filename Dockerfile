@@ -17,12 +17,12 @@ RUN apt-get update && \
 RUN useradd -m -s /bin/bash seed && \
 	echo "root:dees" | chpasswd && \
 	echo "seed:dees" | chpasswd && \
-	usermod -aG sudo seed && \ 
-	mkdir /home/seed/asm && \
-	mkdir /home/seed/seclabs	
+	usermod -aG sudo seed  
 
 USER seed
 WORKDIR /home/seed
+RUN mkdir asm
+RUN mkdir seclabs
 RUN git clone https://github.com/longld/peda.git ~/peda
 RUN echo "source ~/peda/peda.py" >> ~/.gdbinit
 
