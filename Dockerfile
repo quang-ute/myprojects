@@ -9,8 +9,9 @@ RUN apt-get update && \
 	nasm \
 	gcc \
 	gdb \
+	python \
 	git \  
-    nano && \
+    	nano && \
 	apt-get clean
 
 # Put file inside the container
