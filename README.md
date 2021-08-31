@@ -7,7 +7,7 @@ How to use:<br>
 $> docker build -t img4lab .  												
 3. Run the containers and map path on host machine to path inside the container <br>
 for Assembly labs (replace /home/asm with path on the student's host machine):<br>
-$> docker run -it -v /home/seed/asm:/home/asm img4lab <br>
+$> docker run -it -v /home/asm:/home/seed/asm img4lab <br>
 for Security labs (replace /home/security with path on the student's host machine):<br>
-$> docker run -it --privileged -v /home/seed/seclabs:/home/security img4lab <br>
+$> docker run -it --privileged -v /home/security:/home/seed/seclabs img4lab <br>
    
