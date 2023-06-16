@@ -1,16 +1,17 @@
-FROM 32bit/ubuntu:16.04
+FROM ubuntu:20.04
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Install software packages inside the container
 RUN apt-get update && \
 	apt-get -y install \  
-	iputils-ping \ 
+#	iputils-ping \ 
 	zsh \
 	nasm \
 	gcc \
+ 	gcc-multilib \
 	gdb \
 	python \
-	git \  
+#	git \  
     	nano && \
 	apt-get clean
 
@@ -22,7 +23,7 @@ RUN useradd -m -s /bin/bash seed && \
 
 USER seed
 WORKDIR /home/seed
-RUN mkdir asm
+#RUN mkdir asm
 RUN mkdir seclabs
 RUN git clone https://github.com/longld/peda.git ~/peda
 RUN echo "source ~/peda/peda.py" >> ~/.gdbinit
