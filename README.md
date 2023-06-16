@@ -7,4 +7,5 @@ The Dockerfile is used to build docker image with full required packages for Han
 `$> docker build -t img4lab .` to build docker image <br>
 3. Run docker container from previously built image <br> 
 `$> docker run -it --privileged -v $HOME/Seclabs:/home/seed/seclabs img4lab` <br>
+`Seclabs` is created inside student's home folder
    
