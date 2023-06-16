@@ -1,21 +1,19 @@
-FROM ubuntu:20.04
+FROM 32bit/ubuntu:16.04
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Install software packages inside the container
 RUN apt-get update && \
-	apt-get -y install \  
-#	iputils-ping \ 
+	apt-get -y install \   
 	zsh \
 	nasm \
 	gcc \
- 	gcc-multilib \
 	gdb \
 	python \
-#	git \  
+	git \  
     	nano && \
 	apt-get clean
 
-# Put file inside the container
+# Create user 
 RUN useradd -m -s /bin/bash seed && \
 	echo "root:dees" | chpasswd && \
 	echo "seed:dees" | chpasswd && \
