@@ -41,7 +41,8 @@ specified time, so the server does not need to send the content back to the brow
 # Task 4.3: Examine Http request methods
 ## 4.3.a
 - Information being sniffed
-  ![image](https://github.com/quang-ute/myprojects/assets/57078914/1a83c924-4567-4f86-b1be-29ff2a047e7e)
+
+  <img width="800" height=580 src="https://github.com/quang-ute/myprojects/assets/57078914/1a83c924-4567-4f86-b1be-29ff2a047e7e.png">
 
 From my perspective, it demonstrates different methods of sending form data to the server and how the 
 server responds based on the request type. The resulting HTML pages provide insights into how the 
