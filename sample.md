@@ -1,4 +1,4 @@
-# 22110172, Nguyễn Thúy Hằng
+# 22110172, Vũ Văn Việt
 # Task 4.1: Exploring HTTP messages
 ## 4.1.a
 *Identify request line, header lines, blank line of HTTP request message, as well as the Status line, Header lines, blank line, Entity body of HTTP response message?*  
@@ -42,13 +42,14 @@ specified time, so the server does not need to send the content back to the brow
 ## 4.3.a
 - Information being sniffed
 
-  <img width="800" height=580 src="https://github.com/quang-ute/myprojects/assets/57078914/1a83c924-4567-4f86-b1be-29ff2a047e7e.png">
+  <img width="800" height=540 src="https://github.com/quang-ute/myprojects/assets/57078914/1a83c924-4567-4f86-b1be-29ff2a047e7e.png">
 
 From my perspective, it demonstrates different methods of sending form data to the server and how the 
 server responds based on the request type. The resulting HTML pages provide insights into how the 
 server processes and presents the submitted data back to the user.
 ## 4.3.b
 *Examine encrypt password authentication*
-![image](https://github.com/quang-ute/myprojects/assets/57078914/a2aeeb04-0c32-486b-b147-a539ca4cf654)
+
+<img width="600" src="https://github.com/quang-ute/myprojects/assets/57078914/a2aeeb04-0c32-486b-b147-a539ca4cf654.png">
 
  
