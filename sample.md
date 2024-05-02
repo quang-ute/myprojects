@@ -26,7 +26,7 @@ headers from the entity body (which is empty in this case).
 - Server's HTTP version: HTTP/1.1 (as indicated by HTTP/1.1 in the status line)
 # Task 4.2: Http conditional GET/Response Interaction
 - Information sniffed
-![image](https://github.com/quang-ute/myprojects/assets/57078914/0c1b4560-7fe5-4d60-87b8-b59dbf47f260)
+<img width=75% src="images/Screenshot 2023-05-02 165126.png">
 ## 4.2.a
 *Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an 
 “IF-MODIFIED-SINCE” line in the HTTP GET?*
@@ -50,6 +50,6 @@ server processes and presents the submitted data back to the user.
 ## 4.3.b
 *Examine encrypt password authentication*
 
-<img width="600" src="https://github.com/quang-ute/myprojects/assets/57078914/a2aeeb04-0c32-486b-b147-a539ca4cf654.png">
+<img width=75% src="images/Screenshot 2023-05-02 171034.png">
 
  
