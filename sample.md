@@ -26,7 +26,9 @@ headers from the entity body (which is empty in this case).
 - Server's HTTP version: HTTP/1.1 (as indicated by HTTP/1.1 in the status line)
 # Task 4.2: Http conditional GET/Response Interaction
 - Information sniffed
+
 <img width=75% src="images/Screenshot 2023-05-02 165126.png">
+
 ## 4.2.a
 *Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an 
 “IF-MODIFIED-SINCE” line in the HTTP GET?*
