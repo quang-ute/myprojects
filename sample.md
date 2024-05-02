@@ -42,7 +42,7 @@ specified time, so the server does not need to send the content back to the brow
 ## 4.3.a
 - Information being sniffed
 
-  <img src="images/Screenshot 2023-05-02 165635.png">
+  <img width=60% src="images/Screenshot 2023-05-02 165635.png">
 
 From my perspective, it demonstrates different methods of sending form data to the server and how the 
 server responds based on the request type. The resulting HTML pages provide insights into how the 
