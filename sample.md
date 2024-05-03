@@ -30,7 +30,8 @@ headers from the entity body (which is empty in this case).
 # Task 4.2: Http conditional GET/Response Interaction
 - Information sniffed
 
-<img width=75% src="images/Screenshot 2023-05-02 170304.png">
+<img width="726" alt="Screenshot 2023-05-02 165126" src="https://github.com/quang-ute/myprojects/assets/57078914/5b008df9-130c-4501-90d9-fb09f9a89a35">
+
 
 ## 4.2.a
 *Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an 
@@ -47,7 +48,8 @@ specified time, so the server does not need to send the content back to the brow
 ## 4.3.a
 - Information being sniffed
 
-  <img width=75% src="images/Screenshot 2023-05-02 165635.png">
+<img width="829" alt="Screenshot 2023-05-02 171034" src="https://github.com/quang-ute/myprojects/assets/57078914/07eb9d96-0ac2-4891-986a-29f2593fa3e3">
+
 
 From my perspective, it demonstrates different methods of sending form data to the server and how the 
 server responds based on the request type. The resulting HTML pages provide insights into how the 
@@ -55,6 +57,7 @@ server processes and presents the submitted data back to the user.
 ## 4.3.b
 *Examine encrypt password authentication*
 
-<img width=75% src="images/Screenshot 2023-05-02 171034.png">
+
+![Screenshot 2023-07-02 215333](https://github.com/quang-ute/myprojects/assets/57078914/6b9b0fe0-af40-4d56-a505-fcf5e055736e)
 
  
