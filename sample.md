@@ -33,10 +33,12 @@ ETag: "1b6-613e6c4399123"
 *Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an 
 “IF-MODIFIED-SINCE” line in the HTTP GET?*
 - There is an "If-Modified-Since" line in the HTTP GET request
+
 <span style="color:blue">This is a way for the browser to request that content be returned only if it has been modified since the specified time</span>
 ## 4.2.b
 *What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file? Explain.*
 - No content is sent back.
+
 <span style="color:blue">In my opinion it shows that the content has not changed since the specified time, so the server does not need to send the content back to the browser.</span>
 # Task 4.3: Examine Http request methods
 ## 4.3.a
@@ -44,9 +46,7 @@ ETag: "1b6-613e6c4399123"
 
 <img width="829" alt="Screenshot 2023-05-02 171034" src="https://github.com/quang-ute/myprojects/assets/57078914/07eb9d96-0ac2-4891-986a-29f2593fa3e3">
 
-<span style="color:blue">From my perspective, it demonstrates different methods of sending form data to the server and how the 
-server responds based on the request type. The resulting HTML pages provide insights into how the 
-server processes and presents the submitted data back to the user.</span>
+<span style="color:blue">From my perspective, it demonstrates different methods of sending form data to the server and how the server responds based on the request type. The resulting HTML pages provide insights into how the server processes and presents the submitted data back to the user.</span>
 ## 4.3.b
 *Examine encrypt password authentication*
 
