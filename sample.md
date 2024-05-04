@@ -21,8 +21,8 @@ Last-Modified: Mon, 18 Mar 2024 03:15:15 GMT
 ETag: "1b6-613e6c4399123" 
 ... (other headers) 
 
-Blank line of HTTP response message: The line immediately following the headers, separating 
-headers from the entity body (which is empty in this case).
+<span style="color:blue">Blank line of HTTP response message: The line immediately following the headers, separating headers from the entity body (which is empty in this case).</span>
+
 ## 4.1.b
 *Is your browser running HTTP version 1.0 or 1.1? What version of HTTP is the server running?*
 - Browser's HTTP version: HTTP/1.1 (as indicated by HTTP/1.1 in the request line) 
@@ -40,8 +40,7 @@ headers from the entity body (which is empty in this case).
 - This is a way for the browser to request that content be returned only if it has been modified since 
 the specified time
 ## 4.2.b
-*What is the HTTP status code and phrase returned from the server in response to this second HTTP 
-GET? Did the server explicitly return the contents of the file? Explain.*
+*What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file? Explain.*
 - No content is sent back. In my opinion it shows that the content has not changed since the 
 specified time, so the server does not need to send the content back to the browser.
 # Task 4.3: Examine Http request methods
