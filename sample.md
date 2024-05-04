@@ -9,9 +9,6 @@ Host: localhost:5050
 Connection: keep-alive 
 Cache-Control: max-age=0 
 ... (other headers) 
-
-Blank line of HTTP request message: The line immediately following the headers, separating 
-headers from the body (which is empty in this case). 
 - Status line of HTTP response message: HTTP/1.1 304 Not Modified 
 - Header lines of HTTP response message (sample): 
 
@@ -32,30 +29,26 @@ ETag: "1b6-613e6c4399123"
 
 <img width="726" alt="Screenshot 2023-05-02 165126" src="https://github.com/quang-ute/myprojects/assets/57078914/5b008df9-130c-4501-90d9-fb09f9a89a35">
 
-
 ## 4.2.a
 *Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an 
 “IF-MODIFIED-SINCE” line in the HTTP GET?*
 - There is an "If-Modified-Since" line in the HTTP GET request
-- This is a way for the browser to request that content be returned only if it has been modified since 
-the specified time
+<span style="color:blue">This is a way for the browser to request that content be returned only if it has been modified since the specified time</span>
 ## 4.2.b
 *What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file? Explain.*
-- No content is sent back. In my opinion it shows that the content has not changed since the 
-specified time, so the server does not need to send the content back to the browser.
+- No content is sent back.
+<span style="color:blue">In my opinion it shows that the content has not changed since the specified time, so the server does not need to send the content back to the browser.</span>
 # Task 4.3: Examine Http request methods
 ## 4.3.a
 - Information being sniffed
 
 <img width="829" alt="Screenshot 2023-05-02 171034" src="https://github.com/quang-ute/myprojects/assets/57078914/07eb9d96-0ac2-4891-986a-29f2593fa3e3">
 
-
-From my perspective, it demonstrates different methods of sending form data to the server and how the 
+<span style="color:blue">From my perspective, it demonstrates different methods of sending form data to the server and how the 
 server responds based on the request type. The resulting HTML pages provide insights into how the 
-server processes and presents the submitted data back to the user.
+server processes and presents the submitted data back to the user.</span>
 ## 4.3.b
 *Examine encrypt password authentication*
-
 
 ![Screenshot 2023-07-02 215333](https://github.com/quang-ute/myprojects/assets/57078914/6b9b0fe0-af40-4d56-a505-fcf5e055736e)
 
