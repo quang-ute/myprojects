@@ -2,16 +2,14 @@
 # Task 4.1: Exploring HTTP messages
 ## 4.1.a
 *Identify request line, header lines, blank line of HTTP request message, as well as the Status line, Header lines, blank line, Entity body of HTTP response message?*  
-- Request line of HTTP request message: GET / HTTP/1.1 
-- Header lines of HTTP request message (sample): 
-
+Request line of HTTP request message: GET / HTTP/1.1 
+Header lines of HTTP request message (sample): 
 Host: localhost:5050 
 Connection: keep-alive 
 Cache-Control: max-age=0 
 ... (other headers) 
-- Status line of HTTP response message: HTTP/1.1 304 Not Modified 
-- Header lines of HTTP response message (sample): 
-
+Status line of HTTP response message: HTTP/1.1 304 Not Modified 
+Header lines of HTTP response message (sample): 
 Date: Mon, 15 Apr 2024 03:33:33 GMT 
 Server: Apache 
 Last-Modified: Mon, 18 Mar 2024 03:15:15 GMT 
