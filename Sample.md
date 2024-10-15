@@ -1,6 +1,6 @@
 # 22110172, Vũ Văn Việt
 # Task 1: Exploring HTTP messages
-**Question 1**:*Identify request line, header lines, blank line of HTTP request message, as well as the Status line, Header lines, blank line, Entity body of HTTP response message?*  
+**Question 1**: *Identify request line, header lines, blank line of HTTP request message, as well as the Status line, Header lines, blank line, Entity body of HTTP response message?*  
 **Answer 1**:
 Request line of HTTP request message: <span style="color:blue">GET / HTTP/1.1 </span><br>
 Header lines of HTTP request message (sample): <br>
@@ -35,7 +35,7 @@ ETag: "1b6-613e6c4399123" <br>
 - There is an "If-Modified-Since" line in the HTTP GET request
 <span style="color:blue">This is a way for the browser to request that content be returned only if it has been modified since the specified time</span>
 
-**Question 2**:*What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file? Explain.*
+**Question 2**: *What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file? Explain.*
 
 **Answer 2**:
 - No content is sent back.
@@ -49,6 +49,7 @@ ETag: "1b6-613e6c4399123" <br>
 <img width="829" alt="Screenshot 2023-05-02 171034" src="https://github.com/quang-ute/myprojects/assets/57078914/07eb9d96-0ac2-4891-986a-29f2593fa3e3">
 
 <span style="color:blue">From my perspective, it demonstrates different methods of sending form data to the server and how the server responds based on the request type. The resulting HTML pages provide insights into how the server processes and presents the submitted data back to the user.</span>
+
 **Question 2**: What is encryption
 
 **Answer 3**:
