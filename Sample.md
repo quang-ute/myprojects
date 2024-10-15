@@ -18,7 +18,7 @@ ETag: "1b6-613e6c4399123" <br>
 
 <span style="color:blue">Blank line of HTTP response message: The line immediately following the headers, separating headers from the entity body (which is empty in this case).</span>
 
-**Question 2**:*Is your browser running HTTP version 1.0 or 1.1? What version of HTTP is the server running?*
+**Question 2**: *Is your browser running HTTP version 1.0 or 1.1? What version of HTTP is the server running?*
 
 **Answer 2**:
 - Browser's HTTP version: HTTP/1.1 (as indicated by HTTP/1.1 in the request line) 
@@ -29,7 +29,7 @@ ETag: "1b6-613e6c4399123" <br>
 
 <img width="726" alt="Screenshot 2023-05-02 165126" src="https://github.com/quang-ute/myprojects/assets/57078914/5b008df9-130c-4501-90d9-fb09f9a89a35">
 
-**Question 1**:*Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an “IF-MODIFIED-SINCE” line in the HTTP GET?*
+**Question 1**: *Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an “IF-MODIFIED-SINCE” line in the HTTP GET?*
 
 **Answer 1**:
 - There is an "If-Modified-Since" line in the HTTP GET request
@@ -52,8 +52,9 @@ ETag: "1b6-613e6c4399123" <br>
 
 **Question 2**: What is encryption
 
-**Answer 3**:
+**Answer 2**:
 *Examine encrypt password authentication*
+
 ![Screenshot 2023-07-02 215333](https://github.com/quang-ute/myprojects/assets/57078914/6b9b0fe0-af40-4d56-a505-fcf5e055736e)
 
  
