@@ -19,9 +19,11 @@ ETag: "1b6-613e6c4399123" <br>
 <span style="color:blue">Blank line of HTTP response message: The line immediately following the headers, separating headers from the entity body (which is empty in this case).</span>
 
 **Question 2**:*Is your browser running HTTP version 1.0 or 1.1? What version of HTTP is the server running?*
+
 **Answer 2**:
 - Browser's HTTP version: HTTP/1.1 (as indicated by HTTP/1.1 in the request line) 
 - Server's HTTP version: HTTP/1.1 (as indicated by HTTP/1.1 in the status line)
+
 # Task 2: Http conditional GET/Response Interaction
 - Information sniffed
 
