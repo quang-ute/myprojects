@@ -30,10 +30,12 @@ ETag: "1b6-613e6c4399123" <br>
 <img width="726" alt="Screenshot 2023-05-02 165126" src="https://github.com/quang-ute/myprojects/assets/57078914/5b008df9-130c-4501-90d9-fb09f9a89a35">
 
 **Question 1**:*Inspect the contents of the first HTTP GET request from your browser to the server. Do you see an “IF-MODIFIED-SINCE” line in the HTTP GET?*
+
 **Answer 1**:
 - There is an "If-Modified-Since" line in the HTTP GET request
 <span style="color:blue">This is a way for the browser to request that content be returned only if it has been modified since the specified time</span>
 **Question 2**:*What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file? Explain.*
+
 **Answer 2**:
 - No content is sent back.
 
@@ -41,11 +43,13 @@ ETag: "1b6-613e6c4399123" <br>
 # Task 3: Examine Http request methods
 **Question 1**:
 - Information being sniffed
+
 **Answer 1**:
 <img width="829" alt="Screenshot 2023-05-02 171034" src="https://github.com/quang-ute/myprojects/assets/57078914/07eb9d96-0ac2-4891-986a-29f2593fa3e3">
 
 <span style="color:blue">From my perspective, it demonstrates different methods of sending form data to the server and how the server responds based on the request type. The resulting HTML pages provide insights into how the server processes and presents the submitted data back to the user.</span>
 **Question 2**: What is encryption
+
 **Answer 3**:
 *Examine encrypt password authentication*
 ![Screenshot 2023-07-02 215333](https://github.com/quang-ute/myprojects/assets/57078914/6b9b0fe0-af40-4d56-a505-fcf5e055736e)
