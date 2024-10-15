@@ -34,6 +34,7 @@ ETag: "1b6-613e6c4399123" <br>
 **Answer 1**:
 - There is an "If-Modified-Since" line in the HTTP GET request
 <span style="color:blue">This is a way for the browser to request that content be returned only if it has been modified since the specified time</span>
+
 **Question 2**:*What is the HTTP status code and phrase returned from the server in response to this second HTTP GET? Did the server explicitly return the contents of the file? Explain.*
 
 **Answer 2**:
