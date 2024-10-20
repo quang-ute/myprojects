@@ -1,6 +1,6 @@
 # Lab #1, 22110172, Vũ Văn Việt, INSE33480E
 # Task 1: Exploring HTTP messages
-**Description**: Student may use customized docker container, VMs or whichever virtual machine for this lab.
+Student may use customized docker container, VMs or whichever virtual machine for this lab.
 
 **Question 1**: *Identify request line, header lines, blank line of HTTP request message, as well as the Status line, Header lines, blank line, Entity body of HTTP response message?*  
 **Answer 1**:
@@ -27,7 +27,7 @@ Blank line of HTTP response message: The line immediately following the headers,
 - Server's HTTP version: HTTP/1.1 (as indicated by HTTP/1.1 in the status line)
 
 # Task 2: Http conditional GET/Response Interaction
-**Description**: Given the screenshot of http toolkit:
+Given the screenshot of http toolkit:
 
 <img width="726" alt="Screenshot 2023-05-02 165126" src="https://github.com/quang-ute/myprojects/assets/57078914/5b008df9-130c-4501-90d9-fb09f9a89a35">
 
@@ -50,7 +50,8 @@ In my opinion it shows that the content has not changed since the specified time
 
 **Question 1**: Information being sniffed
 
-**Answer 1**: From my perspective, it demonstrates different methods of sending form data to the server and how the server responds based on the request type. The resulting HTML pages provide insights into how the server processes and presents the submitted data back to the user.
+**Answer 1**: 
+From my perspective, it demonstrates different methods of sending form data to the server and how the server responds based on the request type. The resulting HTML pages provide insights into how the server processes and presents the submitted data back to the user.
 
 **Question 2**: What is encryption
 
